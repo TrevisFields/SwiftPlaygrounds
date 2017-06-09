@@ -165,4 +165,22 @@ let _bool2 = false
 let _result = _bool1 && _bool2
 print("Are the two tests equal:",_result)
 
+// || (logical or) works like && ot test if either test is true or false
+let _bool3 = true
+let _bool4 = false
+let result = _bool3 || _bool4
+print("This two are not the same:",result)
+
+// At its core a boolean value is going to either print a 1 for true or a 0 for false
+let testBool1 = false
+print("A false boolean's hash value prints:",testBool1.hashValue)
+
+// Time for another snippet of code to test if both requirements are met
+let house = "Myers Park Apartments"
+let address = 24420
+let zipCode = house == "Myers Park Apartments"
+let postalCode = address >= 24420
+let mailing = zipCode && postalCode
+print("This will test if everything in the code is identical and will print",mailing, "if it is true.")
+
 
