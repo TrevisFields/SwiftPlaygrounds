@@ -191,10 +191,37 @@ let postalCode = address >= 24420;
 let mailing = zipCode && postalCode;
 print("This will test if everything in the code is identical and will print", mailing, "if it is true.");
 
-// Chapter 4:
+// Chapter 4: If.. Else..
 
 /**********************************
 ***********************************
 **********************************/
 
+// Time to begin using if.. else .. statements
+// First we will use an if statement to print out a result that is true by using a boolean value to check
+let myAge = 25;
+let myBool = myAge == 25;
+print("Are you going to be 25 years old this year?");
+if myBool
+{
+	print("Yes");
+}
 
+// Now we are going to use an if.. else .. statement to check if the code is true or false
+let herBool = 53 > 54;
+if herBool
+{
+	print("Happy Birthday!!!");
+}
+else
+{
+	print("Today is not your birthday.");
+}
+
+// It turns out we dont really need to use a boolean value to check if something is true or false
+// We can use a comparison in the if statment to check
+let t = 72;
+if t == 72
+{
+	print("t is 72!");
+}
