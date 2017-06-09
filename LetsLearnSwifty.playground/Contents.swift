@@ -2,6 +2,8 @@
 
 import UIKit
 
+//Chapter 1: Swift Basics
+
 // Declare _programmerName with a constant name
 // This value should or wont change
 let _programmerName = "Trevis J Fields"
@@ -42,6 +44,8 @@ print("2017, the user will be",terminator:" ")
 
 // Print out _userAge with the new value
 print(_userAge, " years of age.")
+
+// Chapter 2: Variables
 
 // Declare _vehicle and _motorcycle
 var _vehicle = "Subaru WRX STI"
@@ -102,7 +106,7 @@ _level += 1
 
 let _display = "You are level"
 print(_display, terminator: " ")
-print(_level, " now!")
+print(_level, "now!")
 
 // Time for a little recap on everything we have covered so far
 let _person = (name: "Trevis", age: 24)
@@ -112,3 +116,53 @@ if let _someone = friend
 {
 	print(_someone)
 }
+
+// Chapter 3: Boolean values
+
+// A data type that tells the truth 
+var truth: Bool
+truth = true
+var fake: Bool
+fake = false
+
+// Lets ask a question to see if its going to be true or false
+let _test1 = 5 < 3
+
+print("True or False, 5 < 3:",_test1)
+let _test2 = 10 > 2
+print("True or False, 10 > 2:",_test2)
+
+// Lets check if a value is greater than or equal to
+let _test3 = 25
+let myBool1 = _test3 >= 26 // myBool checks to see if it is true or false
+print("True or False, 25 is greater than or equal to 26:",myBool1)
+
+let _test4 = 40
+let myBool2 = _test4 >= 39
+print("True or False, 40 is greater than or equal to 39:",myBool2)
+
+// Lets check if a value is equal to another
+let _test5 = 3
+let myBool3 = _test5 == 3
+print("True or False, 3 is equal to 3:",myBool3)
+
+let _test6 = 9
+let myBool4 = _test6 == 5
+print("True or False, 9 is equal to 5:",myBool4)
+
+// Lets check if a value is not equal to another
+let myBool5 = 20 != 30
+print("True or False, 20 is not equal to 30:",myBool5)
+
+// Lets check to see if the truth is going to be told or not in this next snippet of code
+let _jarvisTruth = true
+let theTruth = !_jarvisTruth
+print("Did he tell the truth?:",theTruth)
+
+// && (logical and) will return the correct value if both tests are the same
+let _bool1 = true
+let _bool2 = false
+let _result = _bool1 && _bool2
+print("Are the two tests equal:",_result)
+
+
