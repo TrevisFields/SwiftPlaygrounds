@@ -225,3 +225,22 @@ if t == 72
 {
 	print("t is 72!");
 }
+
+// --> Think of this as a math question
+// Let _x be the value 4
+let _x = 4
+// Does _x equal 5
+if _x == 5
+{
+print("x is 5!")
+}
+	// Does _x equal 6
+else if _x == 6
+{
+	print("x is 6!!")
+}
+	// What was _x originally assigned
+else
+{
+	print("x is 4")
+}
